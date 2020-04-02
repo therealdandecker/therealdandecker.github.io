@@ -37,6 +37,7 @@ DEFAULT_PAGINATION = 5
 
 #HOME_COVER = 'https://casper.ghost.org/v1.0.0/images/welcome.jpg'
 
+THEME ="attila"
 
 # Post and Pages path
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
