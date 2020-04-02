@@ -37,6 +37,28 @@ DEFAULT_PAGINATION = 5
 
 #HOME_COVER = 'https://casper.ghost.org/v1.0.0/images/welcome.jpg'
 
+
+# Post and Pages path
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+
+# Tags and Category path
+CATEGORY_URL = 'category/{slug}'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+CATEGORIES_SAVE_AS = 'catgegories.html'
+TAG_URL = 'tag/{slug}'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+TAGS_SAVE_AS = 'tags.html'
+
+# Author
+AUTHOR_URL = 'author/{slug}'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+AUTHORS_SAVE_AS = 'authors.html'
+
 AUTHORS_BIO = {
   "zutrinken": {
     "name": "Dan Decker",
