@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Dan'
 SITENAME = 'Dan Decker'
+SITESUBTITLE = 'A semi-pro blog'
 SITEURL = 'https://dandecker.us'
 
 PATH = 'content'
@@ -33,3 +34,18 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#HOME_COVER = 'https://casper.ghost.org/v1.0.0/images/welcome.jpg'
+
+AUTHORS_BIO = {
+  "zutrinken": {
+    "name": "Dan Decker",
+    "cover": "https://casper.ghost.org/v1.0.0/images/team.jpg",
+    #"image": "assets/images/avatar.png",
+    "website": "https://dandecker.us",
+    "linkedin": "https://www.linkedin.com/in/dan-d-789a1ab/",
+    "github": "https://github.com/therealdandecker",
+    "location": "USA",
+    "bio": "Dan Decker is not a pulizer winning writer, but anyone wiht Python skills can make a website these days."
+  }
+}
