@@ -62,7 +62,7 @@ AUTHORS_SAVE_AS = 'authors.html'
 AUTHORS_BIO = {
   "zutrinken": {
     "name": "Dan Decker",
-    "cover": "https://casper.ghost.org/v1.0.0/images/team.jpg",
+    #"cover": "https://casper.ghost.org/v1.0.0/images/team.jpg",
     #"image": "assets/images/avatar.png",
     "website": "https://dandecker.us",
     "linkedin": "https://www.linkedin.com/in/dan-d-789a1ab/",
@@ -71,3 +71,14 @@ AUTHORS_BIO = {
     "bio": "Dan Decker is not a pulizer winning writer, but anyone wiht Python skills can make a website these days."
   }
 }
+
+JINJA_ENVIRONMENT = {
+  'extensions' :[
+    'jinja2.ext.loopcontrols',
+    'jinja2.ext.i18n',
+    'jinja2.ext.with_',
+    'jinja2.ext.do'
+  ]
+}
+
+JINJA_FILTERS = {'max': max}
