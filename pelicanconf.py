@@ -27,9 +27,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Anaconda Distribution', 'https://www.anaconda.com/distribution/'),)
 
 # Social widget
-SOCIAL = (
-          ('github', 'https://github.com/therealdandecker'),
-          ('envelope','mailto:daniel.decker1@gmail.com'))
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/dan-d-789a1ab/'),
+          ('Tableau Public', 'https://public.tableau.com/profile/dan.decker#!/'),)
 
 DEFAULT_PAGINATION = 5
 
