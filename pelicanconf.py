@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import webassets
+
 
 AUTHOR = 'Dan'
 SITENAME = 'Dan Decker'
@@ -28,7 +30,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/dan-d-789a1ab/'),
-          ('Tableau Public', 'https://public.tableau.com/profile/dan.decker#!/'),)
+          ('GitHub', 'https://github.com/therealdandecker'),)
 
 DEFAULT_PAGINATION = 5
 
