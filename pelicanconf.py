@@ -60,7 +60,7 @@ AUTHOR_SAVE_AS = 'author/{slug}/index.html'
 AUTHORS_SAVE_AS = 'authors.html'
 
 AUTHORS_BIO = {
-  "zutrinken": {
+  "Dan": {
     "name": "Dan Decker",
     #"cover": "https://casper.ghost.org/v1.0.0/images/team.jpg",
     #"image": "assets/images/avatar.png",

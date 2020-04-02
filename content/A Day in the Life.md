@@ -1,6 +1,9 @@
 Title: A Day in the Life
 Date: 2020-04-01 20:39
+Tags: Python, Tableau
 Category: Data
+Author: Dan
+
 
 Updating and customizing was pretty easy, just required following all the documentation on the themes.  
 

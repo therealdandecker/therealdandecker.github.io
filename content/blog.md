@@ -1,6 +1,8 @@
 Title: Making a Python Blog
 Date: 2020-03-31 21:40
+Tags: Python, TBlog
 Category: Data
+Author: Dan
 
 It has been an adventure.  I am not ashamed to admit that in the process of trying to create this blog, I definitely had to do a hard delete of my entire git repo before rebuilding everything and moving on.  Finally got there and it is great.
 
