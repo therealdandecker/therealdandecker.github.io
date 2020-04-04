@@ -5,56 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://dandecker.us/</loc>
-<lastmod>2020-04-04T00:01:38-00:00</lastmod>
+<lastmod>2020-04-04T00:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/tags.html</loc>
-<lastmod>2020-04-04T00:01:38-00:00</lastmod>
+<lastmod>2020-04-04T00:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/categories.html</loc>
-<lastmod>2020-04-04T00:01:38-00:00</lastmod>
+<lastmod>2020-04-04T00:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/authors.html</loc>
-<lastmod>2020-04-04T00:01:38-00:00</lastmod>
+<lastmod>2020-04-04T00:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/archives.html</loc>
-<lastmod>2020-04-04T00:01:38-00:00</lastmod>
+<lastmod>2020-04-04T00:29:47-00:00</lastmod>
 <changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://dandecker.us/2020/04/my-latest-post.html</loc>
-<lastmod>2020-04-01T23:37:00-04:00</lastmod>
-<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/2020/04/a-day-in-the-life.html</loc>
 <lastmod>2020-04-01T20:39:00-04:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://dandecker.us/2020/03/this-is-a-test.html</loc>
-<lastmod>2020-03-31T23:43:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -67,8 +53,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://dandecker.us/2020/03/sql-adventures.html</loc>
+<lastmod>2020-03-31T21:40:00-04:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://dandecker.us/category/data</loc>
-<lastmod>2020-04-01T23:37:00-04:56</lastmod>
+<lastmod>2020-04-01T20:39:00-04:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://dandecker.us/category/sql</loc>
+<lastmod>2020-03-31T21:40:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -88,7 +88,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://dandecker.us/tag/tblog</loc>
+<loc>https://dandecker.us/tag/blog</loc>
+<lastmod>2020-03-31T21:40:00-04:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://dandecker.us/tag/sql</loc>
 <lastmod>2020-03-31T21:40:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -96,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://dandecker.us/author/dan</loc>
-<lastmod>2020-04-01T23:37:00-04:56</lastmod>
+<lastmod>2020-04-01T20:39:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
