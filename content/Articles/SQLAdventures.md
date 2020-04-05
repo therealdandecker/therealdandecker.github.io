@@ -1,5 +1,5 @@
 Title: SQL Adventures
-Date: 2020-04-04 21:40
+Date: 2020-04-03 21:40
 Tags: Python, Blog, SQL
 Category: Data
 Author: Dan

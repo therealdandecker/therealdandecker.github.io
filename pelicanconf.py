@@ -19,7 +19,7 @@ SITEURL = 'https://dandecker.us'
 PATH = 'content'
 PAGE_PATHS = ['Pages']
 ARTICLE_PATHS= ['Articles']
-OUTPUT_PATH = ''
+OUTPUT_PATH = 'output'
 
 TIMEZONE = 'America/New_York'
 
