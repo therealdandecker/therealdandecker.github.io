@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>Finishing the Blog & Scraping web data</title>
+  <title>A Search for the right Env</title>
 
 
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-<link href="https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html" rel="canonical" />
+<link href="https://dandecker.us/2020/04/a-search-for-the-right-env.html" rel="canonical" />
   <!-- Feed -->
 
   <link href="https://dandecker.us/theme/css/style.css" type="text/css" rel="stylesheet" />
@@ -36,27 +36,29 @@
 
 
 
-    <meta name="description" content="I would probably rescind my post from a few days ago about how 'easy' it was to get this done and customize everything. The initial lift...">
+    <meta name="description" content="Virtualization is all a necessity. Docker containers, virtual desktops, whatever you might need. As I write this post I am running on...">
 
     <meta name="author" content="Dan">
 
-    <meta name="tags" content="Blog">
+    <meta name="tags" content="Python">
+    <meta name="tags" content="Virtualization">
 
 
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="Dan Decker"/>
-<meta property="og:title" content="Finishing the Blog & Scraping web data"/>
-<meta property="og:description" content="I would probably rescind my post from a few days ago about how 'easy' it was to get this done and customize everything. The initial lift..."/>
+<meta property="og:title" content="A Search for the right Env"/>
+<meta property="og:description" content="Virtualization is all a necessity. Docker containers, virtual desktops, whatever you might need. As I write this post I am running on..."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html"/>
+<meta property="og:url" content="https://dandecker.us/2020/04/a-search-for-the-right-env.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2020-04-04 10:51:00-04:00"/>
+<meta property="article:published_time" content="2020-04-06 20:39:00-04:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="https://dandecker.us/author/dan">
 <meta property="article:section" content="Data"/>
-<meta property="article:tag" content="Blog"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="Virtualization"/>
 <meta property="og:image" content="https://dandecker.us/theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
@@ -65,9 +67,9 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "Finishing the Blog & Scraping web data",
-  "headline": "Finishing the Blog & Scraping web data",
-  "datePublished": "2020-04-04 10:51:00-04:00",
+  "name": "A Search for the right Env",
+  "headline": "A Search for the right Env",
+  "datePublished": "2020-04-06 20:39:00-04:00",
   "dateModified": "",
   "author": {
     "@type": "Person",
@@ -75,8 +77,8 @@
     "url": "https://dandecker.us/author/dan"
   },
   "image": "https://dandecker.us/theme/images/post-bg.jpg",
-  "url": "https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html",
-  "description": "I would probably rescind my post from a few days ago about how 'easy' it was to get this done and customize everything. The initial lift..."
+  "url": "https://dandecker.us/2020/04/a-search-for-the-right-env.html",
+  "description": "Virtualization is all a necessity. Docker containers, virtual desktops, whatever you might need. As I write this post I am running on..."
 }
 </script>
 </head>
@@ -116,11 +118,11 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Finishing the Blog & Scraping web data</h1>
+        <h1 class="post-title">A Search for the right Env</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="https://dandecker.us/author/dan">Dan</a>
-            | <time datetime="Sat 04 April 2020">Sat 04 April 2020</time>
+            | <time datetime="Mon 06 April 2020">Mon 06 April 2020</time>
         </span>
         <!-- TODO : Modified check -->
       </div>
@@ -134,28 +136,31 @@
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>I would probably rescind my post from a few days ago about how 'easy' it was to get this done and customize everything.</p>
-<p>The initial lift was easy, getting the theme installed and following the documentation.  The customization I wanted to do and matching things up to the demo of the Attila theme the way I wanted to.  Being newer to Python still it was a good project to get exposure to a lot of libraries outside  those I usually use like Pandas and SQLAlchemy.</p>
-<p>The data source for the NY Covid data is no longer available for web scraping as the state has created a Tableau data visualization for tracking the outbreak.  Obviously, this is great as the data being more accessible is better for everyone but it does put an end to the side project I had been running tracking the New York State data.  </p>
-<p>The side project tracking data across the US is still fully available so the next step for that will be implementing an incremental data pipeline for data changes day to day.</p>
+                <p>Virtualization is all a necessity.  Docker containers, virtual desktops, whatever you might need.  As I write this post I am running on Windows Server 2016 on a VPS.  </p>
+<p>So how did I end up here? Not my first choice I will tell you.  If I had my druthers I would probably have a pure Linux installation at this point.  Something about Bash just makes life infinitely easier than anything else, but we don't always get what we want.  </p>
+<p>There were a few options to kick around, the big cloud computing platforms were out - I do not need something that big.  A cheap desktop with Windows Pro and Linux dual-boot would probably be my first choice, but I am not about to go to the store and I wanted to get started. I did Azure for a while, but found the pay-as-you-go prohibitive even when you deallocated the machine when you were done.  </p>
+<p>I work 100% in a Microsoft environment professionally, and my personal machine is a 2013 Macbook Air.  Love it or hate it, Apple stuff lasts a long time.  Why a beast like Windows? Whether you are an MSFT fan or not, they have come a long way and much of their work now is open source.  Visual Studio Code is by far my preferred IDE.</p>
+<p>The real reason - I had a needed (preferred) to run SQL Server.  I love SSMS, I am not ashamed despite the fact that a lot of respectable data folks would insist it is not a real database.  Can you write SQL there? Yes.  Besides, who wants the overhead of Oracle these days?  I seriously thought about Postgres and MySQL, and MySQL will probably be what I use in the back-end of the next project I endeavor to do, but I had my reasons.</p>
+<p>A quick aside - SQLite is actually my preferred SQL when I need to work with SQL and Python - the new SQL Server Python is the Anaconda distribution but its still heavy; the beauty in SQLite is how lightweight it is.   Get in and get out with a lot of fuss; Pandas does everything in memory anyway, so as long as your data sets are not enormous its a logical choice.  </p>
+<p>I work in SQL Server everyday (as some former co-workers not so affectionately called it Squirrely Server) and for this project, I had steps I wanted to automate and knew how I could easily do so in a SQL Server Developer env.  </p>
             </section>
 
             <section class="post-info">
                 <div class="post-share">
-                    <a class="twitter" href="https://twitter.com/share?text=Finishing the Blog & Scraping web data&amp;url=https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <a class="twitter" href="https://twitter.com/share?text=A Search for the right Env&amp;url=https://dandecker.us/2020/04/a-search-for-the-right-env.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
                     </a>
-                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://dandecker.us/2020/04/a-search-for-the-right-env.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
                     </a>
-                    <a class="googleplus" href="https://plus.google.com/share?url=https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://dandecker.us/2020/04/a-search-for-the-right-env.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
                     </a>
                     <div class="clear"></div>
                 </div>
 
                 <aside class="post-tags">
-<a href="https://dandecker.us/tag/blog">Blog</a>                </aside>
+<a href="https://dandecker.us/tag/python">Python</a><a href="https://dandecker.us/tag/virtualization">Virtualization</a>                </aside>
 
                 <div class="clear"></div>
 
@@ -181,18 +186,11 @@
 
 
                 <aside class="post-nav">
-                    <a class="post-nav-next" href="https://dandecker.us/2020/04/a-search-for-the-right-env.html">
-                        <section class="post-nav-teaser">
-                            <i class="ic ic-arrow-left"></i>
-                                <h2 class="post-nav-title">A Search for the right Env</h2>
-                            <p class="post-nav-excerpt">Virtualization is all a necessity. Docker containers, virtual desktops, whatever you...</p>
-                        </section>
-                    </a>
-                    <a class="post-nav-prev" href="https://dandecker.us/2020/04/sql-adventures.html">
+                    <a class="post-nav-prev" href="https://dandecker.us/2020/04/finishing-the-blog-scraping-web-data.html">
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-right"></i>
-                                <h2 class="post-nav-title">SQL Adventures</h2>
-                            <p class="post-nav-excerpt">Continuing to grind things out in the midst of the COVID-19 epidemic. The web scraping...</p>
+                                <h2 class="post-nav-title">Finishing the Blog & Scraping web data</h2>
+                            <p class="post-nav-excerpt">I would probably rescind my post from a few days ago about how 'easy' it was to get...</p>
                         </section>
                     </a>
                     <div class="clear"></div>
