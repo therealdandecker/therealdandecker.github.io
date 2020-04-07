@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://dandecker.us/</loc>
-<lastmod>2020-04-07T00:11:15-00:00</lastmod>
+<lastmod>2020-04-07T00:21:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/tags.html</loc>
-<lastmod>2020-04-07T00:11:15-00:00</lastmod>
+<lastmod>2020-04-07T00:21:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/categories.html</loc>
-<lastmod>2020-04-07T00:11:15-00:00</lastmod>
+<lastmod>2020-04-07T00:21:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/authors.html</loc>
-<lastmod>2020-04-07T00:11:15-00:00</lastmod>
+<lastmod>2020-04-07T00:21:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://dandecker.us/archives.html</loc>
-<lastmod>2020-04-07T00:11:15-00:00</lastmod>
+<lastmod>2020-04-07T00:21:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -81,7 +81,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://dandecker.us/tag/python</loc>
+<loc>https://dandecker.us/tag/f</loc>
 <lastmod>2020-04-06T20:39:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -97,6 +97,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://dandecker.us/tag/blog</loc>
 <lastmod>2020-04-04T10:51:00-04:56</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://dandecker.us/tag/python</loc>
+<lastmod>2020-04-03T21:40:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
