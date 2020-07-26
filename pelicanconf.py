@@ -19,7 +19,7 @@ SITEURL = 'https://dandecker.us'
 PATH = 'content'
 PAGE_PATHS = ['Pages']
 ARTICLE_PATHS= ['Articles']
-OUTPUT_PATH = ''
+OUTPUT_PATH = 'dandecker.us'
 
 TIMEZONE = 'America/New_York'
 
@@ -34,8 +34,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 MENUITEMS = ( #('Pelican', 'http://getpelican.com/'),
-              #('Python.org', 'http://python.org/'),
-              ('Anaconda Python', 'https://www.anaconda.com/distribution/'),
+              ('Python.org', 'http://python.org/'),
+              #('Anaconda Python', 'https://www.anaconda.com/distribution/'),
               ('GitHub', 'https://github.com/therealdandecker'),
               ('Jinja2', 'http://jinja.pocoo.org/'),
               ('LinkedIn', 'https://www.linkedin.com/in/dan-d-789a1ab/'),
