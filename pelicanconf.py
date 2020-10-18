@@ -14,7 +14,7 @@ from jinja2.ext import do
 AUTHOR = 'Dan'
 SITENAME = 'Dan Decker'
 SITESUBTITLE = 'A Semi-Pro Blog'
-SITEURL = 'https://dandecker.us'
+SITEURL = 'https://therealdandecker.github.io'
 
 PATH = 'content'
 PAGE_PATHS = ['Pages']
@@ -39,7 +39,7 @@ MENUITEMS = ( #('Pelican', 'http://getpelican.com/'),
               ('GitHub', 'https://github.com/therealdandecker'),
               ('Jinja2', 'http://jinja.pocoo.org/'),
               ('LinkedIn', 'https://www.linkedin.com/in/dan-d-789a1ab/'),
-              ('Resume', 'https://dandecker.us/pdfs/Resume.pdf'),
+             # ('Resume', 'https://dandecker.us/pdfs/Resume.pdf'),
               ('Tableau Public','https://public.tableau.com/profile/dan.decker#!/')
           )
 
@@ -115,7 +115,7 @@ AUTHORS_SAVE_AS = 'authors.html'
 AUTHORS_BIO = {
   "dan": {
     "name": "Dan",
-    "website": "https://dandecker.us",
+    "website": "https://therealdandecker.github.io",
     "linkedin": "https://www.linkedin.com/in/dan-d-789a1ab/",
     "github": "https://github.com/therealdandecker",
     "location": "USA",
