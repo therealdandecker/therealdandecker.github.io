@@ -9,24 +9,28 @@
     
 
     <meta name="author" content="Dan Decker">
-    <meta name="description" content="Personal Website of Dan Decer">
+    <meta name="description" content="The semi-professional website of Dan Decker, Data and Business Intelligence Professional">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dan Decker"/>
-<meta name="twitter:description" content="Personal Website of Dan Decer"/>
+<meta name="twitter:title" content="Projects"/>
+<meta name="twitter:description" content="The semi-professional website of Dan Decker, Data and Business Intelligence Professional"/>
 
-    <meta property="og:title" content="Dan Decker" />
-<meta property="og:description" content="Personal Website of Dan Decer" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://therealdandecker.github.io/" />
+    <meta property="og:title" content="Projects" />
+<meta property="og:description" content="The semi-professional website of Dan Decker, Data and Business Intelligence Professional" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://therealdandecker.github.io/projects/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-03-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-31T00:00:00+00:00" />
 
 
 
-    <title>Dan Decker</title>
+    <title>
+  Projects · Dan Decker
+</title>
 
     
-      <link rel="canonical" href="https://therealdandecker.github.io/">
+      <link rel="canonical" href="https://therealdandecker.github.io/projects/">
     
 
     <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -57,7 +61,6 @@
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Dan Decker" />
     <meta name="generator" content="Hugo 0.96.0" />
   </head>
 
@@ -110,38 +113,37 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-    
-    
-    <h1>Dan Decker</h1>
-    
-    <h2>Data and Business Intelligence Professional</h2>
-    
-    
-    <ul>
-      
-        
-          <li>
-            <a href="https://github.com/therealdandecker/" aria-label="Github"   >
-              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://www.linkedin.com/in/dan-d-789a1ab/" aria-label="LinkedIn"   >
-              <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-    </ul>
-    
-  </div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://therealdandecker.github.io/projects/">
+          Projects
+        </a>
+      </h1>
+    </header>
+
+    <ol>
+<li><a href="https://github.com/therealdandecker/COV19Tracking">US Covid-19 Tracking</a></li>
+</ol>
+<ul>
+<li>When the pandemic first hit there was actually not as much data around tracking COVID-10 so early on I wrote a web-scraper to gather some information and track it.</li>
+<li>The scraper used Beautiful Soup to scrape HTML data from a web page and land it in SQL (Microsoft SQL Server)</li>
+</ul>
+<ol start="2">
+<li><a href="https://github.com/therealdandecker/PySQLBase/">MS SQL - Python - PYODBC Container</a></li>
+</ol>
+<ul>
+<li>Periodically as a &lsquo;data person&rsquo; you need to build or re-create an environment to work with SQL and Python.</li>
+<li>Working in a Microsoft shop and some of the Python documentation being what it is, until recently it was hard to figure out exactly how to scale out the right set-up.</li>
+<li>I wrote a Dockerfile for a custom container image that gets the dependencies for Python, MS ODBC 18, Pyodbc, and SQL Alchemy ORM so that there is always a stable start point.</li>
+<li>This is updated periodically, just copy the docker file or curl the repo if you wish to use</li>
+</ul>
+
+  </article>
 </section>
 
+  
 
       </div>
 
