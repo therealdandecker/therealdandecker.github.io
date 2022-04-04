@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dan Decker</title>
+    <link>https://therealdandecker.github.io/</link>
+    <description>Recent content on Dan Decker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Mar 2022 07:16:07 -0400</lastBuildDate><atom:link href="https://therealdandecker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://therealdandecker.github.io/posts/my-first-post/</link>
+      <pubDate>Thu, 31 Mar 2022 07:16:07 -0400</pubDate>
+      
+      <guid>https://therealdandecker.github.io/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://therealdandecker.github.io/about/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://therealdandecker.github.io/about/</guid>
+      <description>People often ask, how did you get into woring in data? The truth is I more or less showed up and started doing it.
+I started out coaching collegiate swimming - if you&amp;rsquo;ve ever been a coach or an athlete you know there is a fair bit of data. Working with age group and collegiate swimmers I started as anyone does by working in Excel and was always looking for a better way to do different things.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://therealdandecker.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://therealdandecker.github.io/contact/</guid>
+      <description>Email: dan.a.decker@icloud.com</description>
+    </item>
+    
+  </channel>
+</rss>
